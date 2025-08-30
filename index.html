@@ -13,19 +13,19 @@
 
         <div class="buttons">
             <button value="C" class="special">C</button>
-            <button value="(" class="operator">(</button>
-            <button value=")" class="operator">)</button>
-            <button value="/" class="operator">/</button>
+            <button value="(" class="number">(</button>
+            <button value=")" class="number">)</button>
+            <button value="/" class="operator" data-state="off">/</button>
 
             <button value="1" class="number">1</button>
             <button value="2" class="number">2</button>
             <button value="3" class="number">3</button>
-            <button value="*" class="operator">*</button>
+            <button value="*" class="operator" data-state="off">*</button>
 
             <button value="4" class="number">4</button>
             <button value="5" class="number">5</button>
             <button value="6" class="number">6</button>
-            <button value="-" class="operator">-</button>
+            <button value="-" class="operator" data-state="off">-</button>
 
             <button value="7" class="number">7</button>
             <button value="8" class="number">8</button>
@@ -38,5 +38,27 @@
             <button value="=" class="special">=</button>
         </div>
     </div>
+
+    <section aria-labelledby="main-features-heading">
+      <h2 id="main-features-heading">Main Features</h2>
+      <ol>
+        <li>Calculates only a pair of numbers at a time.</li>
+        <li>Decimal numbers are rounded up to 3 decimal places.</li>
+        <li>Pressing an operator or equal sign before entering numbers is disabled.</li>
+        <li>Pressing “AC” completely resets the calculation.</li>
+        <li>Divide by 0 returns “Infinity” instead of an “Error”.</li>
+        <li>Pressing operator keys consecutively reassigns the operator to the new operator.</li>
+        <li>After the result is displayed (pressing “=” or Enter), entering new numbers resets the calculation.</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="additional-features-heading">
+      <h2 id="additional-features-heading">Additional Features</h2>
+      <ol>
+        <li>Users can enter “.” only once for any number.</li>
+        <li>Backspace button “C” is added.</li>
+        <li>Keyboard support for number keys, “AC” (Escape), “C” (Backspace), “=” (Enter).</li>
+      </ol>
+    </section>
 </body>
 </html>
