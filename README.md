@@ -1,10 +1,9 @@
 # calculator-1
 
-this is a simple calculator project
-using basic html, css flexbox and js
+this calculator does not use "eval()" for calculations
 
-although it does use "eval()" for calculations
-meaning it is safe for a small project like this
+it is not for practical use, just to test out building skills
 
-but it is not preferred to use "eval()" due to security reasons 
-and it is done so in this project just to get the hang of it.
+does everything what a "normal" calculator does
+
+keyboard support is also included in this one
